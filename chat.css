@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+    
+    
+}
+
+
+#main-cont{
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.links{
+    text-decoration: none;
+    color: #aeabab;
+    font-weight: 500;
+    
+
+}
+
+
+
+
+.links:hover{
+    color: #02DFC0;
+    transition: 0.4s ease-in;
+    font-weight: 700;
+}
+
+.nav-link-btn{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 6px;
+    /* float: right; */
+    background-color: #02DFC0;
+    border-radius: 10px;
+
+}
+
+.nav-link-btn:hover{
+    /* border: 2px solid #43f091 ; */
+    border-radius: 12px;
+    color: #fff;
+    background-color: #035c50;
+    /* background: transparent; */
+    transition: 0.2s ease-in;
+}
+
+.nav{
+    background-color:#2a2a2b;
+    height: 2.8rem;
+    padding: 18px;
+    display: flex;
+    gap: 8vw;
+    align-items: center;
+    
+    
+    
+}
+
+.logo{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+    
+    
+
+    
+}
+
+.logo-cont{
+    display: flex;
+    align-items: center;
+}
+
+.logo-cont img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#chat-inter{
+    background-color: #f5f1f1a8;
+    margin-left:50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border:5px solid rgba(0, 0, 0, 0.102);
+}
+#chat{
+    width:70vw;
+    height:500px;
+    background-color: #f9fefedb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 135px;
+    border:2px solid rgba(0, 0, 0, 0.102);
+}
+#chat-name{
+    width:858px;
+    height: 70px;
+    background-color: #e6e6e6d6;
+    font-size: larger;
+    padding-left: 10px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    color: #2a2a2b;
+    font-weight: 400;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.102);
+}
+#chat-send{
+    width:858px;
+    height: 75px;
+    background-color: #d9ddddd2;
+    border-top:  2px solid rgba(0, 0, 0, 0.102);
+}
+#chat-search-msg{
+    width: 65%;
+    height: 50px;
+    border-radius: 25px;
+    border: #000;
+    margin-left: 100px;
+    font-size: larger;
+    font-weight: 500;
+    text-align:start;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+#chat-search-send{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: #000;
+    margin-left: 10px;
+    justify-self: center;
+    font-size: larger;
+    font-weight: 700;
+    background-color: #65cab6;
+}
+#chat-search-send:hover{
+    background-color: rgb(49, 218, 162);
+}

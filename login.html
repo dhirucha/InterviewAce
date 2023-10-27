@@ -1,0 +1,104 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to get access</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="login.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<style>
+    .error {
+        color: red;
+    }
+</style>
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="nav">
+        <div class="logo-cont">
+            <img src="./interview.png" alt="logo">
+            <a href="index.html" class="logo"> <i>InterviewAce</i></a>
+        </div>
+        <a href="index.html" class="links">Home</a>
+
+        <a href="#" class="links">Careers</a>
+        <a href="#" class="links">Resume builder</a>
+        <a href="#" class="links">prepChat</a>
+
+        
+        <a href="login.html" class="nav-link-btn">Register</a>
+    </nav>
+    
+        
+        
+    
+        <div class="wrapper">
+        <h1>Login</h1>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <!-- <label for="username">Username:</label> -->
+       <div class="input-element">
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <i class='bx bx-user-circle'></i>
+       </div>     
+            <!-- <label for="password">Password:</label> -->
+       <div class="input-element">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <i class='bx bx-lock-alt' ></i>
+       </div>    
+            
+            <div class="extra-link">
+                <a href="#">Forgot password?</a>
+          <div class="register">
+            <p>Don't have an account?</p><a href="#">Register</a>
+          </div>     
+            </div>
+             
+
+            <span class="error" id="errorSpan"></span><br>
+            <div class="login-btn">
+                <button class="log-btn" type="submit">Login</button>
+
+            </div>
+        </form>
+
+    </div>
+    
+        <script>
+            function validateForm() {
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+                const errorSpan = document.getElementById("errorSpan");
+    
+                // Check if username and password are correct
+                if (username === "dhiru123@gmail.com" && password === "12345678") {
+                   
+                    alert("Login successful!");
+                    return true;
+                } else {
+                    errorSpan.innerText = "Invalid username or password.";
+                    return false;
+                }
+            }
+        </script>
+
+    
+
+
+</body>
+</html>

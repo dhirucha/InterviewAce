@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('pexels-hitesh-choudhary-879109.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.aside-left{
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(8,8,8);
+ background: linear-gradient(0deg, rgba(8,8,8,0.6755077030812324) 0%, rgba(6,56,107,0.8267682072829132) 4%, rgba(9,10,16,0.9724264705882353) 95%);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-bottom-right-radius: 24px; */ 
+
+
+
+
+}
+.head-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 68.4rem;
+    /* background: rgb(8,8,8);
+    background: linear-gradient(0deg, rgba(8,8,8,0.6755077030812324) 0%, rgba(7,71,134,0.7595413165266106) 1%, rgba(9,10,16,0.9724264705882353) 97%); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head-elements input
+{
+    padding: 12px;
+    outline: none;
+    border-radius: 14px;
+    width: 28rem;
+    border: none;
+    font-weight: 600;
+    color: #000000;
+    font-size: 1.3rem;
+    
+    
+}
+
+.head-area h1{
+    color: #fff;
+
+}
+
+.head-elements i{
+    position: absolute;
+    right: 1rem;
+    top: .9rem;
+    font-size: 3rem;
+    color: #fff;
+    
+}
+
+.search{
+    transform: translateX(-6rem);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: rgb(23, 23, 135);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: .5s all ease;
+}
+
+.search:hover{
+    background-color: rgb(75, 75, 190);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.aside-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 44px; */
+    height: 50px;
+    width: 210px;
+    background-color: #0942eb;
+    border-radius: 5px;
+    border-top-right-radius: 24px;
+    text-decoration: none;
+    color: #fff;
+    display: grid;
+    grid-template-rows: auto;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: .2s ease-in;
+    
+    
+    
+    
+}
+
+.aside-links a:hover{
+    text-decoration: underline;
+    background-color:  #2e5ef1;
+}
+
+
+
+
